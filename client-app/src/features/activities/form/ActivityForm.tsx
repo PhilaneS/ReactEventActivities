@@ -6,11 +6,11 @@ import LoadingComponent from '../../../app/layout/LoadingComponent';
 import { useStore } from '../../../app/stores/store';
 import { Formik,Form } from 'formik';
 import * as Yup from 'yup';
-import MyTextInput from '../../../app/common/form/MyTextinput';
-import MyTextTextAra from '../../../app/common/form/MyTextArea';
-import MySelectInput from '../../../app/common/form/MySelectInput';
+import MyTextInput from '../../../app/common/forms/MyTextinput';
+import MyTextTextAra from '../../../app/common/forms/MyTextArea';
+import MySelectInput from '../../../app/common/forms/MySelectInput';
 import { categoryOptions } from '../../../app/common/potions/categoryOptions';
-import MyDateInput from '../../../app/common/form/MyDateInput';
+import MyDateInput from '../../../app/common/forms/MyDateInput';
 import { Activity } from '../../../app/models/activity';
 import { v4 as uuid } from 'uuid';
 

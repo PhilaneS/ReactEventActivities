@@ -6,6 +6,7 @@ interface IProps {
     name: string;
     placeholder: string;
     Label?: string;
+    type?: string;
     }
 
 export default function MyTextInput(props: IProps) {
