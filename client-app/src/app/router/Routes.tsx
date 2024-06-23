@@ -3,9 +3,9 @@ import ActivityDashboard from "../../features/activities/dashboard/ActivityDashb
 import ActivityDetails from "../../features/activities/details/ActivityDetails";
 import ActivityForm from "../../features/activities/form/ActivityForm";
 import App from "../layout/App";
-import TestErrors from "../../features/activities/errors/TestErrors";
-import NotFound from "../../features/activities/errors/NotFound";
-import ServerError from "../../features/activities/errors/ServerError";
+import TestErrors from "../../features/errors/TestErrors";
+import NotFound from "../../features/errors/NotFound";
+import ServerError from "../../features/errors/ServerError";
 import LoginForm from "../../features/users/LoginForm";
 
 
