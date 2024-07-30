@@ -17,7 +17,7 @@ import { v4 as uuid } from 'uuid';
 export default observer(function ActivityForm() {
     const {activityStore} = useStore();
     const {createActivity, updateActivity, 
-        loading, loadActivity, loadingInitial} = activityStore;
+        loadActivity, loadingInitial} = activityStore;
     const {id} = useParams();
     const navigate = useNavigate();
 

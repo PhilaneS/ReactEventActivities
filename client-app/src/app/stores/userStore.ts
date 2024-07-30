@@ -38,4 +38,8 @@ export default class UserStore {
         const user = await agent.Accout.current();
         runInAction(() => this.user = user);
     }
+
+    setImage =(image:string)=>{
+        if(this.user) this.user.image = image;
+    }
 }
