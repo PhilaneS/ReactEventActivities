@@ -98,6 +98,7 @@ const Profiles = {
     },
     setMaiPhoto: (id:string)=> axios.post(`/photos/${id}/setMain`,{}),
     deletePhoto: (id:string)=> axios.delete(`/photos/${id}`),
+    updateProfile: (profile: Partial<Profile>) => requests.put(`/profiles`,profile)
 }
 
 
