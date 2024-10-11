@@ -11,8 +11,8 @@ namespace Domain
 
         // public ICollection<UserActivity> UserActivities { get; set; }
         // public ICollection<Photo> Photos { get; set; }
-        // public ICollection<UserFollowing> Followings { get; set; }
-        // public ICollection<UserFollowing> Followers { get; set; }
+        public ICollection<UserFollowing> Followings { get; set; }
+        public ICollection<UserFollowing> Followers { get; set; }
         
     }
 }
