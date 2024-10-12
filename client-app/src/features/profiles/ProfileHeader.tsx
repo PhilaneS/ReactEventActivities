@@ -23,8 +23,8 @@ return (
             </Grid.Column>
             <Grid.Column width={4}>
                 <Statistic.Group widths={2}>
-                    <Statistic label='Followers' value='5' />
-                    <Statistic label='Folling' value='105' />
+                    <Statistic label='Followers' value={profile.followersCount} />
+                    <Statistic label='Folling' value={profile.followingCount} />
                 </Statistic.Group>
                 <Divider/>
                 <Reveal animated='move'>
